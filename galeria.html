@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Museo Pusheen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('Fondo galeria.webp');
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+            color: #5d4037;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        .galeria-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .obra {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease;
+            padding-top: 15px;
+        }
+        
+        .obra:hover {
+            transform: scale(1.05);
+        }
+
+        .obra h3 {
+            margin-top: 0;
+            font-size: 1.2rem;
+            padding: 0 15px 15px 15px;
+        }
+
+        .obra img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .obra-descripcion {
+            padding: 15px;
+            text-align: left;
+        }
+
+        .navegacion {
+            background-color: #333;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        .navegacion a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+
+        .navegacion a:hover {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navegacion">
+        <a href="Pantalla de Inicio.html">Inicio</a>
+        <a href="principal.html">Página Principal</a>
+        <a href="galeria.html">Galería</a>
+        <a href="about.html">Sobre Nosotros</a>
+		<a href="promocion.html">Promoción</a>
+	    <a href="reglas-y-descarga.html">Juego de Cartas</a>
+    </div>
+
+    <h1>Galería de Obras</h1>
+    
+    <div class="galeria-container">
+        <div class="obra">
+            <h3>PIKA-SHEEN</h3>
+            <img src=" Pika-Sheen.jpg" alt="Descripción de la obra 1">
+            <div class="obra-descripcion">
+            </div>
+        </div>
+
+        <div class="obra">
+            <h3>LA INFANCIA DE PUSHEEN</h3>
+            <img src="LA INFANCIA DE PUSHEEN.jpg" alt="Descripción de la obra 2">
+            <div class="obra-descripcion">
+
+            </div>
+        </div>
+		
+				<div class="obra">
+			<h3>BABY PUSHEENGO</h3>
+			<img src="BABY PUSHEENGO.jpg" alt="Descripción de la obra">
+			<div class="obra-descripcion">
+
+			</div>
+		</div>
+		
+		<div class="obra">
+			<h3>PUSHEEN-MOMIA</h3>
+			<img src="PUSHEEN-MOMIA.jpg" alt="Descripción de la obra">
+			<div class="obra-descripcion">
+
+			</div>
+		</div>
+		
+		<div class="obra">
+			<h3>¡VAYA TRIPLE!</h3>
+			<img src="¡VAYA TRIPLE!.jpg" alt="Descripción de la obra">
+			<div class="obra-descripcion">
+
+			</div>
+		</div>
+
+        </div>
+</body>
+</html>
