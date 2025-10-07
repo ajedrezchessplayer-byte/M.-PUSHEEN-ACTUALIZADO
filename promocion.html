@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoción de Cartas y Libro - Museo Pusheen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+			/* Puedes cambiar 'Fondo about.webp' por otra imagen si quieres un fondo diferente */
+			background-image: url('Fondo about.webp'); 
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+            color: #5d4037;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: black;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        /* ESTILOS DE NAVEGACIÓN (CON JUEGO DE CARTAS) */
+        .navegacion {
+            background-color: #333;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .navegacion a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+        .navegacion a:hover {
+            background-color: #555;
+            color: white;
+        }
+        /* ESTILOS DE CONTENIDO */
+        .contenido-promo {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9); /* Más opaco para mejor lectura */
+            border-radius: 15px;
+            text-align: center;
+            line-height: 1.6;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .contenido-promo h2 {
+            color: #f7a8b8; /* Rosa Pusheen */
+            border-bottom: 2px solid #f7a8b8;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .contenido-promo p {
+            font-size: 1.1rem;
+            color: #5d4037;
+        }
+        .boton-secundario {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #8c7ae6; /* Un color morado o azul para destacar */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .boton-secundario:hover {
+            background-color: #5d4037;
+        }
+        .seccion-libro {
+            margin-bottom: 40px;
+        }
+
+        /* NUEVO ESTILO PARA LA IMAGEN */
+        .imagen-libro {
+            max-width: 200px; /* Tamaño máximo para la imagen */
+            height: auto;
+            border: 5px solid #f7a8b8; /* Borde rosa suave */
+            border-radius: 10px;
+            margin: 20px auto; /* Centra la imagen y añade espacio */
+            display: block; /* Asegura que la imagen se centre correctamente */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+		
+		/* NUEVO ESTILO PARA LAS CARTAS */
+.imagen-cartas {
+    /* Define el ancho máximo que quieres que tenga la imagen */
+    max-width: 350px; /* Puedes ajustar este valor (por ejemplo, a 300px o 400px) */
+    height: auto; /* Mantiene la proporción de la imagen para que no se vea estirada */
+    border: 5px solid #8c7ae6; /* Un borde atractivo (azul/morado) */
+    border-radius: 10px;
+    margin: 20px auto; /* Centra la imagen y añade espacio */
+    display: block; /* Asegura que se centre correctamente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+    </style>
+</head>
+<body>
+    <div class="navegacion">
+        <a href="Pantalla de Inicio.html">Inicio</a>
+        <a href="principal.html">Página Principal</a>
+        <a href="galeria.html">Galería</a>
+        <a href="promocion.html">Promoción</a>
+        <a href="reglas-y-descarga.html">Juego de Cartas</a>
+        <a href="about.html">Sobre Nosotros</a>
+    </div>
+
+    <h1>Zona de Promoción Pusheen</h1>
+
+    <div class="contenido-promo">
+        
+        <div class="seccion-libro">
+            <h2>Libro Recomendado: "Yo soy Pusheen"</h2>
+            
+            <img src="portada-yo-soy-pusheen.jpg" alt="Portada del libro Yo soy Pusheen" class="imagen-libro">
+            
+            <p>Si eres un verdadero fan de Pusheen, no puedes perderte el libro oficial **"Yo soy Pusheen"**. Es una colección adorable y divertida de cómics, datos curiosos y actividades que te permitirá sumergirte aún más en el mundo de nuestro gato favorito.</p>
+            <p>Es la compañía perfecta para el Museo, ¡lleno de inspiración y creatividad!</p>
+            <a href="https://www.amazon.es/Yo-Soy-Pusheen-Claire-Belton/dp/8416429510" class="boton-secundario" target="_blank">Dónde conseguir el libro</a>
+        </div>
+
+        <hr> <div class="seccion-cartas">
+            <h2>¡Colecciona nuestras Cartas Exclusivas!</h2>
+			
+			<img src="Imagen-Cartas-Pusheemon.jpg" alt="Cartas Pusheemon" class="imagen-cartas">
+						
+            <p>¡Hemos convertido las obras de la exposición "Gozando la Vida con Pusheen" en un divertido juego de cartas! Colecciona las 29 cartas, cada una con un diseño único basado en las piezas de arte expuestas en la galería.</p>
+            <p>Adéntrate en la sección "Juego de Cartas" donde podrás descubrir cómo se juega y cómo obtener tu propia colección de cartas. Haz clic en "Ver Reglas" para aprender bien las normas.</p>
+            <a href="reglas-y-descarga.html" class="boton-secundario">Ver Reglas del Juego</a>
+        </div>
+        
+    </div>
+</body>
+</html>

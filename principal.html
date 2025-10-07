@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Museo Pusheen</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+           background-image: url('Fondo Galería.jpg');
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+            color: #5d4037; /* Color café para el texto */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+		h1 {
+			color: #ffffff; /* Esto hará que el título sea blanco */
+		}
+		
+        .galeria-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+.seccion-principal p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #ffffff; /* Esto hace que el texto sea blanco */
+}
+
+.obra {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+    padding-top: 15px; /* Agregado para separar el título del borde superior */
+}
+
+.obra h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    padding: 0 15px 15px 15px; /* Agregado para darle espacio al título */
+}
+
+.obra img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.obra-descripcion {
+    padding: 15px;
+    text-align: left;
+}
+        }
+       
+        .navegacion {
+    background-color: #333; /* Un gris oscuro, similar al de la imagen */
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navegacion a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.navegacion a:hover {
+    background-color: #555; /* Un gris más claro al pasar el ratón */
+    color: white;
+}
+
+.mensajes-finales {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* Esto hará que el texto sea blanco */
+	
+}
+
+    </style>
+</head>
+<body>
+    
+<div class="navegacion">
+	<br><br><br>
+       <a href="Pantalla de Inicio.html">Inicio</a> 
+       <a href="principal.html">Página Principal</a> 
+       <a href="galeria.html">Galería</a> 
+       <a href="promocion.html">Promoción</a>
+       <a href="about.html">Sobre Nosotros</a> 
+       <a href="reglas-y-descarga.html">Juego de Cartas</a>
+    </div>
+
+    
+	<h1>Exposición del Museo Pusheen</h1>
+	
+	<section class="seccion-principal">
+   
+    <p>Aquí tienen un adelanto de las obras que podrán ver en nuestra exposición especial.</p> 
+	<p>Hemos seleccionado cuidadosamente estas piezas para que disfruten del increíble mundo de Pusheen que hemos creado.</p>
+</section>
+
+    <div class="galeria-container">
+    <div class="obra">
+        <h3>PUSHEEN-MOMIA</h3>
+        <img src="PUSHEEN-MOMIA.jpg" alt="Pusheen en un monopatín">
+        <div class="obra-descripcion">
+            <p>Entra dentro de las obras más recientes del autor: Alejandro Villa.</p>
+        </div>
+    </div>
+
+    <div class="obra">
+        <h3>LA INFANCIA DE PUSHEEN</h3>
+        <img src="LA INFANCIA DE PUSHEEN.jpg" alt="Pusheen en un aula">
+        <div class="obra-descripcion">
+            <p>Inspirada en la infancia de nuestro protagonista.</p>
+        </div>
+    </div>
+    
+    </div>
+	
+<div class="mensajes-finales">
+    <p>Si quieren ver más obras, diríjanse a la sección Galería.</p>
+    <p>¡Gracias por visitar nuestra página web! Pronto tendremos más obras para compartir con ustedes.</p>
+    <br><br><p><a href="acceso-secreto.html">¡Psst! Haz clic aquí si eres un verdadero fan de Pusheen.</a></p>
+</div>
+</div>
+	
+</body>
+</html>
