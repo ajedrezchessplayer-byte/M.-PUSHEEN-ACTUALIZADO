@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reglas del Juego y Descarga - Museo Pusheen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+			/* Puedes usar el mismo fondo o cambiarlo, por ahora usamos 'Fondo about.webp' */
+			background-image: url('Fondo about.webp'); 
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+            color: #5d4037;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: black;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        /* ESTILOS DE NAVEGACIÓN (CONSISTENTE CON EL RESTO) */
+        .navegacion {
+            background-color: #333;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .navegacion a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+        .navegacion a:hover {
+            background-color: #555;
+            color: white;
+        }
+        /* ESTILOS DE CONTENIDO */
+        .contenido-reglas {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            text-align: left; /* Alineamos a la izquierda para el texto de las reglas */
+            line-height: 1.8;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .contenido-reglas h2 {
+            color: #f7a8b8; 
+            border-bottom: 2px solid #f7a8b8;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contenido-reglas h3 {
+            color: #5d4037;
+            margin-top: 25px;
+        }
+        .contenido-reglas p, .contenido-reglas ul {
+            font-size: 1.1rem;
+            color: #5d4037;
+            padding-left: 20px;
+        }
+        .boton-descarga {
+            display: inline-block;
+            margin: 30px auto;
+            padding: 15px 35px;
+            background-color: #a8e6cf; /* Un color verde menta, distintivo */
+            color: #5d4037;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            transition: background-color 0.3s;
+            text-align: center;
+            border: 2px solid #5d4037;
+        }
+        .boton-descarga:hover {
+            background-color: #8c7ae6;
+            color: white;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navegacion">
+        <a href="Pantalla de Inicio.html">Inicio</a>
+        <a href="principal.html">Página Principal</a>
+        <a href="galeria.html">Galería</a>
+        <a href="promocion.html">Promoción</a>
+        <a href="reglas-y-descarga.html">Juego de Cartas</a>
+        <a href="about.html">Sobre Nosotros</a>
+    </div>
+
+    <h1>Reglas del Juego de Cartas Pusheen</h1>
+
+    <div class="contenido-reglas">
+        
+        <h2>Instrucciones Rápidas</h2>
+        
+        <p>¡Bienvenido al juego de cartas oficial del Museo Pusheen! Es un juego rápido y divertido donde los jugadores compiten usando las obras de arte de la exposición "Gozando la Vida con Pusheen".</p>
+
+        <h3>Objetivo del Juego:</h3>
+        <ul>
+            <li>Ser el primero de los 4 jugadores en coleccionar 4 obras de la misma categoría (por ejemplo, 4 cartas de la colección "Sentimental").</li>
+        </ul>
+
+        <h3>Cómo Jugar:</h3>
+        <ol>
+            <li>Se barajan las 29 cartas y cada jugador recibe 4. El resto forma el mazo de robo.</li>
+            <li>En tu turno, puedes hacer una de estas acciones:
+                <ul>
+                    <li>Jugar una carta: Baja una carta de tu mano a la mesa para comenzar tu colección. Estas cartas no pueden ser intercambiadas por otros jugadores, a menos que las devuelvas a tu mano.</li>
+                    <li>Intercambiar: Intercambia una de tus cartas por otra aleatoria de la mano de otro jugador.</li>
+					<li>Robar: Coge una carta del mazo de robo y descartas una de las tuyas hacia el centro de la mesa bocarriba. Esta carta puede ser intercambiada por cualquier jugador, dejando otra en su lugar.</li>
+                </ul>
+            </li>
+           <br>
+		   <li>El juego termina cuando un jugador anuncia que ha completado su colección de 4 cartas de la misma categoría y demuestra que las tiene poniendo las cartas sobre la mesa.</li>
+        </ol>
+
+		<div style="text-align: center;">
+            <a href="Categorías.pdf" class="boton-descarga" target="_blank">Todas las Categorías</a>
+		</div>
+		
+        <hr>
+
+        <h2 style="text-align: center;">Lista de Cartas Descargable</h2>
+        <p style="text-align: center;">Aquí puedes descargar un PDF con la lista completa de todas las obras/cartas de la colección. ¡Ideal para coleccionistas!</p>
+        
+        <div style="text-align: center;">
+            <a href="ListaCartasPusheen.pdf" class="boton-descarga" target="_blank">Descargar Lista Completa de Cartas (PDF)</a>
+        </div>
+        
+    </div>
+</body>
+</html>
